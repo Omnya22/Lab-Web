@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0,0,0,.7);
+
+}
+#home{
+	background: url(home.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+#home .overlay{
+	position: absolute;
+	top: 0;  left: 0;
+	width: 100%; min-height: 600px;
+	background-color: rgba(0,0,0,.7);
+}
+#home .home-inner{
+	padding-top: 150px;
+}
+.home-inner{
+padding-top: 100px;
+}
